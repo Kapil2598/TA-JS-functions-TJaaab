@@ -2,7 +2,7 @@
 1. Create a function named `sayHello` that that accepts a parameter `name` and alert `Hello [name]!`.
 */
 function sayHello() {
-  
+  alert(`hello`);
 }
 sayHello('yash');
 /*
@@ -59,5 +59,5 @@ function isLeapYear() {
 6. Create a function named `getFactorial` that accepts a number and return the factorial of the number.
 */
 function getFactorial() {
-  
+
 }
