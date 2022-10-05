@@ -4,7 +4,7 @@
 function sayHello(){
   alerts(`hello world`);
 }
-sayHello();
+
 /*
 2. Create a function named `fullName` with the following steps:
 
@@ -13,7 +13,14 @@ sayHello();
   - Concat the value of fistName and lastName and store it in another variable named `fullName`.
   - Alert `fullName`
 */
-
+function fullName()
+{
+  let firstName = +prompt(`Enter your first name`);
+  let lastName = +prompt(`Enter your last name`);
+  let fullName = firstName + lastName;
+  alert(fullName);
+  
+}
 /*
 3. Create a function named `addTwoNumbers` with the following steps:
 
@@ -22,6 +29,12 @@ sayHello();
   - Add the value of firstNum and secondNum and store it in another variable named `sum`.
   - Alert `sum`
 */
+function addTwoNumbers()
+{
+  let firstNum = +prompt(`Enter the first number`);
+  let secondNum = +prompt(`Enter the second number`);
+  sum = firstNum + secondNum;
+}
 
 /*
 4. Create a function named `getTable` with the following steps:
@@ -42,6 +55,17 @@ sayHello();
   9 * 10 = 90
 */
 
+function getTable() {
+  let num = + prompt( `Enter a number` );
+  let mul = 0;
+  for (let i=1; i<=10; i++ )
+  {
+    mul = num * i;
+    console.log(mul);
+  }
+  
+}
+
 /*
 5. Create a function named `isLeapYear` with the following steps:
 
@@ -56,6 +80,12 @@ sayHello();
   - Alert `The factorial of [number] is [factorial]`
 
 */
-function pr(){
-
-} 
+function getFactorial() {
+  let number = +prompt(`Enter a number` );
+  let final = 1;
+  let factorial = 1;
+  for (let i = number; i >=1; i--){
+    final = final* i;
+  }
+  alert(final);
+}
