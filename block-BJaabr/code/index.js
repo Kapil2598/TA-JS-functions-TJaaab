@@ -41,11 +41,17 @@ Do the following with above problem.
 */
 
 // - Write a Function Declaration
+function addOne(n) {
+  
+}
+
 
 // - Write a Function Expression
-
+let addOne = function(n){
+  return(n + 1);
+}
 // - Write an Arrow Function without curly brackets(if possible)
-
+let addOne = (n) => (n+1);
 // - Write an Arrow Function with curly brackets
 
 // - Execute the function
