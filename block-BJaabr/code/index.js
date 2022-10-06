@@ -42,7 +42,7 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 function addOne(n) {
-  
+  return n+1;
 }
 
 
@@ -53,13 +53,15 @@ let addOne = function(n){
 // - Write an Arrow Function without curly brackets(if possible)
 let addOne = (n) => (n+1);
 // - Write an Arrow Function with curly brackets
-
+let addOne = (n) => {
+  n+1;
+}
 // - Execute the function
-
+addOne();
 // - Execute the function and store the return value in a variable.
-
+let returnVale = addOne(2);
 // - What is the typeof returnValue
-
+Number
 /* 2. Subtract one
 
 Write a function named `substractOne` that accepts a number, substracts one from the given value and return it. (hint: use return keyword)
@@ -68,9 +70,13 @@ Do the following with above problem.
 */
 
 // - Write a Function Declaration
-
+function substractOne(n) {
+  return n-1;
+}
 // - Write a Function Expression
-
+let substractOne = function(n) {
+  return n-1 ;
+}
 // - Write an Arrow Function without curly brackets(if possible)
 
 // - Write an Arrow Function with curly brackets
